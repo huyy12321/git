@@ -34,5 +34,8 @@
     git reset HEAD~1
     git push --force
     ps: --force会进行覆盖，如果这中间其他人提交了代码，也会被覆盖
+### 线上回退到某个版本
+    git reset --hard HEAD~n n为目标记录
+    git push --force
 
     
