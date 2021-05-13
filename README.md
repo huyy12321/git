@@ -12,9 +12,9 @@
 ### git切换分支
     git checkout
     
-##工作空间：最开始写的代码都是在工作空间 working Tree
-##暂存区域：add之后，文件会保存在这里 index/Stage
-##提交记录：commit后，文件会保存在这 Repository
+## 工作空间：最开始写的代码都是在工作空间 working Tree
+## 暂存区域：add之后，文件会保存在这里 index/Stage
+## 提交记录：commit后，文件会保存在这 Repository
 
 ### commit之后发现有错误,想要修改对应的文件，然后进行覆盖提交，不生成新的commit记录
     修改完对应的文件
@@ -37,5 +37,6 @@
 ### 线上回退到某个版本
     git reset --hard HEAD~n n为目标记录
     git push --force
+    ps:回退版本到目前版本之间的代码会不见
 
     
